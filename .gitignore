@@ -1,0 +1,77 @@
+BackendSpringBoot/HELP.md
+BackendSpringBoot/target/
+BackendSpringBoot/!.mvn/wrapper/maven-wrapper.jar
+BackendSpringBoot/!**/src/main/**/target/
+BackendSpringBoot/!**/src/test/**/target/
+
+### STS ###
+BackendSpringBoot/.apt_generated
+BackendSpringBoot/.classpath
+BackendSpringBoot/.factorypath
+BackendSpringBoot/.project
+BackendSpringBoot/.settings
+BackendSpringBoot/.springBeans
+BackendSpringBoot/.sts4-cache
+
+### IntelliJ IDEA ###
+BackendSpringBoot/.idea
+BackendSpringBoot/*.iws
+BackendSpringBoot/*.iml
+BackendSpringBoot/*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+BackendSpringBoot/.vscode/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+FrontendAngular/dist
+FrontendAngular/tmp
+FrontendAngular/out-tsc
+FrontendAngular/bazel-out
+
+# Node
+FrontendAngular/node_modules
+FrontendAngularnpm-debug.log
+FrontendAngularyarn-error.log
+
+# IDEs and editors
+FrontendAngular/.idea/
+FrontendAngular/.project
+FrontendAngular/.classpath
+FrontendAngular/.c9/
+FrontendAngular/*.launchFrontendAngular/
+FrontendAngular/.settings/
+FrontendAngular/*.sublime-workspace
+
+# Visual Studio Code
+FrontendAngular/.vscode/*
+FrontendAngular/!.vscode/settings.json
+FrontendAngular/!.vscode/tasks.json
+FrontendAngular/!.vscode/launch.json
+FrontendAngular/!.vscode/extensions.json
+FrontendAngular/.history/*
+
+# Miscellaneous
+FrontendAngular/.angular/cache
+FrontendAngular/.sass-cache/
+FrontendAngular/connect.lock
+FrontendAngular/coverage
+FrontendAngular/libpeerconnection.log
+FrontendAngular/testem.log
+FrontendAngular/typings
+
+# System files
+FrontendAngular/.DS_Store
+FrontendAngular/Thumbs.db
