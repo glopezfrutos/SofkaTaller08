@@ -1,4 +1,6 @@
-<div class="container">
+<div class="card m-5">
+  <div class="card-body">
+    <div class="card-title"><h3>Nuevo contacto:</h3></div>
   <form [formGroup]="newContactForm" (ngSubmit)="submitNewContactForm(newContactForm.value)">
     <div class="form-group">
       <label>Nombre:</label>
@@ -16,7 +18,10 @@
         <input type="text" class="form-control" placeholder="eMail" formControlName="email">
       </div>
     </div>
+    <div class="card-body">
     <button type="submit" class="btn btn-primary">Guardar</button>
     <button type="button" class="btn btn-dark" (click)="goBack()">Volver</button>
+    </div>
   </form>
+</div>
 </div>
